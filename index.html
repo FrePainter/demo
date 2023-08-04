@@ -97,21 +97,20 @@
 
                           <br>
                           <p style="color:red;">WARNING: HIGH-FREQUENCY SAMPLES WITH LOUD VOLUME MAY HAVE PAINFUL SOUNDS.</p>
-                          <span id="test-val1">1000 Hz  </span>&nbsp;&nbsp;
-                          <input id="test_sr" type="input" data-slider-min="1000" data-slider-max="11000"
-                               data-slider-step="1000" data-slider-value="0" data-slider-enabled="true"/>&nbsp;&nbsp;
-                          <span id="test-val2">11000 Hz</span>
+                          <span id="test-val1">2000 Hz  </span>&nbsp;&nbsp;
+                          <input id="test_sr" type="input" data-slider-min="2000" data-slider-max="22000"
+                               data-slider-step="2000" data-slider-value="0" data-slider-enabled="true"/>&nbsp;&nbsp;
+                          <span id="test-val2">22000 Hz</span>
                           <br>
                           <audio id="audio_panel" controls >
                             <source id="test_audio_src" src="audio/test/1000.wav" type="audio/wav" />
                           </audio>  
                           <br>
-                          <img id="test_img_src" src="audio/test/1000.png" width="50%">
+                          <img id="test_img_source" src="audio/test/1000.png" width="50%">
                           <br>
                           <h9>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;</h9>
                         </div>
-                              <!--<p><em>When a man looks for something beyond his reach, his friends say he is looking for the pot of gold at the end of the rainbow.</em></p></th>-->
-                            </tr>
+                              </tr>
                           </thead>
                           
                         </table>
@@ -138,52 +137,67 @@
                       <table class="table table-responsive align-content-center" style="background-color: whitesmoke; border-radius: 20px">
                           <thead>
                             <tr>
-                              <th colspan="3"><p><em>Audio: p253_144 </em></p>
+                              <th colspan="3"><p><em>Audio: p360_418 </em></p>
                                 <div id="emo_button" class="col-lg-12 ml-auto">
                         <h7>Sampling rate</h7>
-						<input id="sr2000" type='button' value='2kHz' onclick="sr_click(2000,'p253_144');"/>
-						<input id="sr4000" type='button' value='4kHz' onclick="sr_click(4000,'p253_144');"/>
-						<input id="sr8000" type='button' value='8kHz' onclick="sr_click(8000,'p253_144');"/>
-						<input id="sr12000" type='button' value='12kHz' onclick="sr_click(12000,'p253_144');"/>
-						<input id="sr16000" type='button' value='16kHz' onclick="sr_click(16000,'p253_144');"/>
+						<input id="sr2000" type='button' value='2kHz' onclick="sr_click(2000,'p360_418');"/>
+						<input id="sr4000" type='button' value='4kHz' onclick="sr_click(4000,'p360_418');"/>
+						<input id="sr8000" type='button' value='8kHz' onclick="sr_click(8000,'p360_418');"/>
+						<input id="sr12000" type='button' value='12kHz' onclick="sr_click(12000,'p360_418');"/>
+						<input id="sr16000" type='button' value='16kHz' onclick="sr_click(16000,'p360_418');"/>
+						<input id="sr24000" type='button' value='24kHz' onclick="sr_click(24000,'p360_418');"/>
                     </div>
-                              <!--<p><em>When a man looks for something beyond his reach, his friends say he is looking for the pot of gold at the end of the rainbow.</em></p></th>-->
-                            </tr>
+                              </tr>
                           </thead>
                           <tbody>
                             <tr>
                               <td rowspan="1" style="vertical-align: top;"><p><strong>GT</strong></p>
                                 <audio id="asr_gt" controls >
-                                    <source id="asr_src_gt" src="audio/audiosr/gt/2000/p253_144.wav" type="audio/wav" />
+                                    <source id="asr_src_gt" src="audio/audiosr/gt/2000/p360_418.wav" type="audio/wav" />
                                 </audio>
-                                <img id="asr_img_gt" src="audio/audiosr/gt/2000/p253_144.png" width="100%">
+                                <img id="asr_img_gt" src="audio/audiosr/gt/2000/p360_418.png" width="100%">
                               </td>
                               <td><p><strong>GT (degraded)</strong></p>
-                                <audio id="asr_src" controls >
-                                    <source id="asr_src_src" src="audio/audiosr/src/2000/p253_144.wav" type="audio/wav" />
+                                <audio id="asr_source" controls >
+                                    <source id="asr_src_source" src="audio/audiosr/source/2000/p360_418.wav" type="audio/wav" />
                                 </audio>
-                                <img id="asr_img_src" src="audio/audiosr/src/2000/p253_144.png" width="100%">
+                                <img id="asr_img_source" src="audio/audiosr/source/2000/p360_418.png" width="100%">
                               </td>
                             </tr>
                             <tr>
-                              <td rowspan="1" style="vertical-align: top;"><p><strong>HiFi-GAN</strong></p>
-                                <audio id="asr_hifigan" controls >
-                                    <source id="asr_src_hifigan" src="audio/audiosr/hifigan/2000/p253_144.wav" type="audio/wav" />
+                              <td rowspan="1" style="vertical-align: top;"><p><strong>VoiceFixer</strong></p>
+                                <audio id="asr_voicefixer" controls >
+                                    <source id="asr_src_voicefixer" src="audio/audiosr/voicefixer/2000/p360_418.wav" type="audio/wav" />
                                 </audio>
-                                <img id="asr_img_hifigan" src="audio/audiosr/hifigan/2000/p253_144.png" width="100%">
+                                <img id="asr_img_voicefixer" src="audio/audiosr/voicefixer/2000/p360_418.png" width="100%">
                               </td>
                               <td><p><strong>NU-Wave 2</strong></p>
-                                <audio id="asr_nu" controls >
-                                    <source id="asr_src_nu" src="audio/audiosr/nu/2000/p253_144.wav" type="audio/wav" />
+                                <audio id="asr_nuwave2" controls >
+                                    <source id="asr_src_nuwave2" src="audio/audiosr/nuwave2/2000/p360_418.wav" type="audio/wav" />
                                 </audio>
-                                <img id="asr_img_nu" src="audio/audiosr/nu/2000/p253_144.png" width="100%">
+                                <img id="asr_img_nuwave2" src="audio/audiosr/nuwave2/2000/p360_418.png" width="100%">
                               </td>
-                              <td><p><strong>Fre-Painter</strong></p>
-                                <audio id="asr_ours" controls >
-                                    <source id="asr_src_ours" src="audio/audiosr/ours/2000/p253_144.wav" type="audio/wav" />
+                              <td><p><strong>UDM+</strong></p>
+                                <audio id="asr_udm" controls >
+                                    <source id="asr_src_udm" src="audio/audiosr/udm/2000/p360_418.wav" type="audio/wav" />
                                 </audio>
-                                <img id="asr_img_ours" src="audio/audiosr/ours/2000/p253_144.png" width="100%">
+                                <img id="asr_img_udm" src="audio/audiosr/udm/2000/p360_418.png" width="100%">
                               </td>
+                            </tr>
+                            <tr>
+                              <td rowspan="1" style="vertical-align: top;"><p><strong>Fre-Painter</strong></p>
+                                <audio id="asr_random" controls >
+                                    <source id="asr_src_random" src="audio/audiosr/random/2000/p360_418.wav" type="audio/wav" />
+                                </audio>
+                                <img id="asr_img_random" src="audio/audiosr/random/2000/p360_418.png" width="100%">
+                              </td>
+                              <td rowspan="1" style="vertical-align: top;"><p><strong>Fre-Painter (fixed)</strong></p>
+                                <audio id="asr_fix" controls >
+                                    <source id="asr_src_fix" src="audio/audiosr/fix/2000/p360_418.wav" type="audio/wav" />
+                                </audio>
+                                <img id="asr_img_fix" src="audio/audiosr/fix/2000/p360_418.png" width="100%">
+                              </td>
+                              <td></td>
                             </tr>
                           </tbody>
                         </table>
@@ -197,14 +211,15 @@
                       <table class="table table-responsive align-content-center" style="background-color: whitesmoke; border-radius: 20px">
                           <thead>
                             <tr>
-                              <th colspan="3"><p><em>Audio: p256_162 </em></p>
+                              <th colspan="3"><p><em>Audio: p361_340 </em></p>
                                 <div id="emo_button" class="col-lg-12 ml-auto">
                         <h7>Sampling rate</h7>
-						<input id="sr22000" type='button' value='2kHz' onclick="sr_click2(2000,'p256_162');"/>
-						<input id="sr24000" type='button' value='4kHz' onclick="sr_click2(4000,'p256_162');"/>
-						<input id="sr28000" type='button' value='8kHz' onclick="sr_click2(8000,'p256_162');"/>
-						<input id="sr212000" type='button' value='12kHz' onclick="sr_click2(12000,'p256_162');"/>
-						<input id="sr216000" type='button' value='16kHz' onclick="sr_click2(16000,'p256_162');"/>
+						<input id="sr22000" type='button' value='2kHz' onclick="sr_click2(2000,'p361_340');"/>
+						<input id="sr24000" type='button' value='4kHz' onclick="sr_click2(4000,'p361_340');"/>
+						<input id="sr28000" type='button' value='8kHz' onclick="sr_click2(8000,'p361_340');"/>
+						<input id="sr212000" type='button' value='12kHz' onclick="sr_click2(12000,'p361_340');"/>
+						<input id="sr216000" type='button' value='16kHz' onclick="sr_click2(16000,'p361_340');"/>
+            <input id="sr224000" type='button' value='24kHz' onclick="sr_click2(24000,'p361_340');"/>
                     </div>
                               <!--<p><em>When a man looks for something beyond his reach, his friends say he is looking for the pot of gold at the end of the rainbow.</em></p></th>-->
                             </tr>
@@ -213,36 +228,46 @@
                             <tr>
                               <td rowspan="1" style="vertical-align: top;"><p><strong>GT</strong></p>
                                 <audio id="asr_gt2" controls >
-                                    <source id="asr_src_gt2" src="audio/audiosr/gt/2000/p256_162.wav" type="audio/wav" />
+                                    <source id="asr_src_gt2" src="audio/audiosr/gt/2000/p361_340.wav" type="audio/wav" />
                                 </audio>
-                                <img id="asr_img_gt2" src="audio/audiosr/gt/2000/p256_162.png" width="100%">
+                                <img id="asr_img_gt2" src="audio/audiosr/gt/2000/p361_340.png" width="100%">
                               </td>
                               <td><p><strong>GT (degraded)</strong></p>
-                                <audio id="asr_src2" controls >
-                                    <source id="asr_src_src2" src="audio/audiosr/src/2000/p256_162.wav" type="audio/wav" />
+                                <audio id="asr_source2" controls >
+                                    <source id="asr_src_source2" src="audio/audiosr/source/2000/p361_340.wav" type="audio/wav" />
                                 </audio>
-                                <img id="asr_img_src2" src="audio/audiosr/src/2000/p256_162.png" width="100%">
+                                <img id="asr_img_source2" src="audio/audiosr/source/2000/p361_340.png" width="100%">
                               </td>
                             </tr>
                             <tr>
-                              <td rowspan="1" style="vertical-align: top;"><p><strong>HiFi-GAN</strong></p>
-                                <audio id="asr_hifigan2" controls >
-                                    <source id="asr_src_hifigan2" src="audio/audiosr/hifigan/2000/p256_162.wav" type="audio/wav" />
+                              <td rowspan="1" style="vertical-align: top;"><p><strong>VoiceFixer</strong></p>
+                                <audio id="asr_voicefixer2" controls >
+                                    <source id="asr_src_voicefixer2" src="audio/audiosr/voicefixer/2000/p361_340.wav" type="audio/wav" />
                                 </audio>
-                                <img id="asr_img_hifigan2" src="audio/audiosr/hifigan/2000/p256_162.png" width="100%">
+                                <img id="asr_img_voicefixer2" src="audio/audiosr/voicefixer/2000/p361_340.png" width="100%">
                               </td>
                               <td><p><strong>NU-Wave 2</strong></p>
-                                <audio id="asr_nu2" controls >
-                                    <source id="asr_src_nu2" src="audio/audiosr/nu/2000/p256_162.wav" type="audio/wav" />
+                                <audio id="asr_nuwave22" controls >
+                                    <source id="asr_src_nuwave22" src="audio/audiosr/nuwave2/2000/p361_340.wav" type="audio/wav" />
                                 </audio>
-                                <img id="asr_img_nu2" src="audio/audiosr/nu/2000/p256_162.png" width="100%">
+                                <img id="asr_img_nuwave22" src="audio/audiosr/nuwave2/2000/p361_340.png" width="100%">
                               </td>
-                              <td><p><strong>Fre-Painter</strong></p>
-                                <audio id="asr_ours2" controls >
-                                    <source id="asr_src_ours2" src="audio/audiosr/ours/2000/p256_162.wav" type="audio/wav" />
+                              <td><p><strong>UDM+</strong></p>
+                                <audio id="asr_udm2" controls >
+                                    <source id="asr_src_udm2" src="audio/audiosr/udm/2000/p361_340.wav" type="audio/wav" />
                                 </audio>
-                                <img id="asr_img_ours2" src="audio/audiosr/ours/2000/p256_162.png" width="100%">
+                                <img id="asr_img_udm2" src="audio/audiosr/udm/2000/p361_340.png" width="100%">
                               </td>
+                            </tr>
+                            <tr>
+                              <td rowspan="1" style="vertical-align: top;"><p><strong>Fre-Painter</strong></p>
+                                <audio id="asr_random2" controls >
+                                    <source id="asr_src_random2" src="audio/audiosr/random/2000/p361_340.wav" type="audio/wav" />
+                                </audio>
+                                <img id="asr_img_random2" src="audio/audiosr/random/2000/p361_340.png" width="100%">
+                              </td>
+                              <td></td>
+                              <td></td>
                             </tr>
                           </tbody>
                         </table>
@@ -255,14 +280,15 @@
                       <table class="table table-responsive align-content-center" style="background-color: whitesmoke; border-radius: 20px">
                           <thead>
                             <tr>
-                              <th colspan="3"><p><em>Audio: p266_204 </em></p>
+                              <th colspan="3"><p><em>Audio: p374_137 </em></p>
                                 <div id="emo_button" class="col-lg-12 ml-auto">
                         <h7>Sampling rate</h7>
-						<input id="sr32000" type='button' value='2kHz' onclick="sr_click3(2000,'p266_204');"/>
-						<input id="sr34000" type='button' value='4kHz' onclick="sr_click3(4000,'p266_204');"/>
-						<input id="sr38000" type='button' value='8kHz' onclick="sr_click3(8000,'p266_204');"/>
-						<input id="sr312000" type='button' value='12kHz' onclick="sr_click3(12000,'p266_204');"/>
-						<input id="sr316000" type='button' value='16kHz' onclick="sr_click3(16000,'p266_204');"/>
+						<input id="sr32000" type='button' value='2kHz' onclick="sr_click3(2000,'p374_137');"/>
+						<input id="sr34000" type='button' value='4kHz' onclick="sr_click3(4000,'p374_137');"/>
+						<input id="sr38000" type='button' value='8kHz' onclick="sr_click3(8000,'p374_137');"/>
+						<input id="sr312000" type='button' value='12kHz' onclick="sr_click3(12000,'p374_137');"/>
+						<input id="sr316000" type='button' value='16kHz' onclick="sr_click3(16000,'p374_137');"/>
+            <input id="sr324000" type='button' value='24kHz' onclick="sr_click3(24000,'p374_137');"/>
                     </div>
                               <!--<p><em>When a man looks for something beyond his reach, his friends say he is looking for the pot of gold at the end of the rainbow.</em></p></th>-->
                             </tr>
@@ -271,36 +297,46 @@
                             <tr>
                               <td rowspan="1" style="vertical-align: top;"><p><strong>GT</strong></p>
                                 <audio id="asr_gt3" controls >
-                                    <source id="asr_src_gt3" src="audio/audiosr/gt/2000/p266_204.wav" type="audio/wav" />
+                                    <source id="asr_src_gt3" src="audio/audiosr/gt/2000/p374_137.wav" type="audio/wav" />
                                 </audio>
-                                <img id="asr_img_g3t" src="audio/audiosr/gt/2000/p266_204.png" width="100%">
+                                <img id="asr_img_gt3" src="audio/audiosr/gt/2000/p374_137.png" width="100%">
                               </td>
                               <td><p><strong>GT (degraded)</strong></p>
-                                <audio id="asr_src3" controls >
-                                    <source id="asr_src_src3" src="audio/audiosr/src/2000/p266_204.wav" type="audio/wav" />
+                                <audio id="asr_source3" controls >
+                                    <source id="asr_src_source3" src="audio/audiosr/source/2000/p374_137.wav" type="audio/wav" />
                                 </audio>
-                                <img id="asr_img_src3" src="audio/audiosr/src/2000/p266_204.png" width="100%">
+                                <img id="asr_img_source3" src="audio/audiosr/source/2000/p374_137.png" width="100%">
                               </td>
                             </tr>
                             <tr>
-                              <td rowspan="1" style="vertical-align: top;"><p><strong>HiFi-GAN</strong></p>
-                                <audio id="asr_hifigan3" controls >
-                                    <source id="asr_src_hifigan3" src="audio/audiosr/hifigan/2000/p266_204.wav" type="audio/wav" />
+                              <td rowspan="1" style="vertical-align: top;"><p><strong>VoiceFixer</strong></p>
+                                <audio id="asr_voicefixer3" controls >
+                                    <source id="asr_src_voicefixer3" src="audio/audiosr/voicefixer/2000/p374_137.wav" type="audio/wav" />
                                 </audio>
-                                <img id="asr_img_hifigan3" src="audio/audiosr/hifigan/2000/p266_204.png" width="100%">
+                                <img id="asr_img_voicefixer3" src="audio/audiosr/voicefixer/2000/p374_137.png" width="100%">
                               </td>
                               <td><p><strong>NU-Wave 2</strong></p>
-                                <audio id="asr_nu3" controls >
-                                    <source id="asr_src_nu3" src="audio/audiosr/nu/2000/p266_204.wav" type="audio/wav" />
+                                <audio id="asr_nuwave23" controls >
+                                    <source id="asr_src_nuwave23" src="audio/audiosr/nuwave2/2000/p374_137.wav" type="audio/wav" />
                                 </audio>
-                                <img id="asr_img_nu3" src="audio/audiosr/nu/2000/p266_204.png" width="100%">
+                                <img id="asr_img_nuwave23" src="audio/audiosr/nuwave2/2000/p374_137.png" width="100%">
                               </td>
-                              <td><p><strong>Fre-Painter</strong></p>
-                                <audio id="asr_ours3" controls >
-                                    <source id="asr_src_ours3" src="audio/audiosr/ours/2000/p266_204.wav" type="audio/wav" />
+                              <td><p><strong>UDM+</strong></p>
+                                <audio id="asr_udm3" controls >
+                                    <source id="asr_src_udm3" src="audio/audiosr/udm/2000/p374_137.wav" type="audio/wav" />
                                 </audio>
-                                <img id="asr_img_ours3" src="audio/audiosr/ours/2000/p266_204.png" width="100%">
+                                <img id="asr_img_udm3" src="audio/audiosr/udm/2000/p374_137.png" width="100%">
                               </td>
+                            </tr>
+                            <tr>
+                              <td rowspan="1" style="vertical-align: top;"><p><strong>Fre-Painter</strong></p>
+                                <audio id="asr_random3" controls >
+                                    <source id="asr_src_random3" src="audio/audiosr/random/2000/p374_137.wav" type="audio/wav" />
+                                </audio>
+                                <img id="asr_img_random3" src="audio/audiosr/random/2000/p374_137.png" width="100%">
+                              </td>
+                              <td></td>
+                              <td></td>
                             </tr>
                           </tbody>
                         </table>
@@ -313,14 +349,15 @@
                       <table class="table table-responsive align-content-center" style="background-color: whitesmoke; border-radius: 20px">
                           <thead>
                             <tr>
-                              <th colspan="3"><p><em>Audio: p270_094 </em></p>
+                              <th colspan="3"><p><em>Audio: s5_156 </em></p>
                                 <div id="emo_button" class="col-lg-12 ml-auto">
                         <h7>Sampling rate</h7>
-						<input id="sr42000" type='button' value='2kHz' onclick="sr_click4(2000,'p270_094');"/>
-						<input id="sr44000" type='button' value='4kHz' onclick="sr_click4(4000,'p270_094');"/>
-						<input id="sr48000" type='button' value='8kHz' onclick="sr_click4(8000,'p270_094');"/>
-						<input id="sr412000" type='button' value='12kHz' onclick="sr_click4(12000,'p270_094');"/>
-						<input id="sr416000" type='button' value='16kHz' onclick="sr_click4(16000,'p270_094');"/>
+						<input id="sr42000" type='button' value='2kHz' onclick="sr_click4(2000,'s5_156');"/>
+						<input id="sr44000" type='button' value='4kHz' onclick="sr_click4(4000,'s5_156');"/>
+						<input id="sr48000" type='button' value='8kHz' onclick="sr_click4(8000,'s5_156');"/>
+						<input id="sr412000" type='button' value='12kHz' onclick="sr_click4(12000,'s5_156');"/>
+						<input id="sr416000" type='button' value='16kHz' onclick="sr_click4(16000,'s5_156');"/>
+            <input id="sr424000" type='button' value='24kHz' onclick="sr_click4(24000,'s5_156');"/>
                     </div>
                               <!--<p><em>When a man looks for something beyond his reach, his friends say he is looking for the pot of gold at the end of the rainbow.</em></p></th>-->
                             </tr>
@@ -329,36 +366,46 @@
                             <tr>
                               <td rowspan="1" style="vertical-align: top;"><p><strong>GT</strong></p>
                                 <audio id="asr_gt4" controls >
-                                    <source id="asr_src_gt4" src="audio/audiosr/gt/2000/p270_094.wav" type="audio/wav" />
+                                    <source id="asr_src_gt4" src="audio/audiosr/gt/2000/s5_156.wav" type="audio/wav" />
                                 </audio>
-                                <img id="asr_img_gt4" src="audio/audiosr/gt/2000/p270_094.png" width="100%">
+                                <img id="asr_img_gt4" src="audio/audiosr/gt/2000/s5_156.png" width="100%">
                               </td>
                               <td><p><strong>GT (degraded)</strong></p>
-                                <audio id="asr_src4" controls >
-                                    <source id="asr_src_src4" src="audio/audiosr/src/2000/p270_094.wav" type="audio/wav" />
+                                <audio id="asr_source4" controls >
+                                    <source id="asr_src_source4" src="audio/audiosr/source/2000/s5_156.wav" type="audio/wav" />
                                 </audio>
-                                <img id="asr_img_src4" src="audio/audiosr/src/2000/p270_094.png" width="100%">
+                                <img id="asr_img_source4" src="audio/audiosr/source/2000/s5_156.png" width="100%">
                               </td>
                             </tr>
                             <tr>
-                              <td rowspan="1" style="vertical-align: top;"><p><strong>HiFi-GAN</strong></p>
-                                <audio id="asr_hifigan4" controls >
-                                    <source id="asr_src_hifigan4" src="audio/audiosr/hifigan/2000/p270_094.wav" type="audio/wav" />
+                              <td rowspan="1" style="vertical-align: top;"><p><strong>VoiceFixer</strong></p>
+                                <audio id="asr_voicefixer4" controls >
+                                    <source id="asr_src_voicefixer4" src="audio/audiosr/voicefixer/2000/s5_156.wav" type="audio/wav" />
                                 </audio>
-                                <img id="asr_img_hifigan4" src="audio/audiosr/hifigan/2000/p270_094.png" width="100%">
+                                <img id="asr_img_voicefixer4" src="audio/audiosr/voicefixer/2000/s5_156.png" width="100%">
                               </td>
                               <td><p><strong>NU-Wave 2</strong></p>
-                                <audio id="asr_nu4" controls >
-                                    <source id="asr_src_nu4" src="audio/audiosr/nu/2000/p270_094.wav" type="audio/wav" />
+                                <audio id="asr_nuwave24" controls >
+                                    <source id="asr_src_nuwave24" src="audio/audiosr/nuwave2/2000/s5_156.wav" type="audio/wav" />
                                 </audio>
-                                <img id="asr_img_nu4" src="audio/audiosr/nu/2000/p270_094.png" width="100%">
+                                <img id="asr_img_nuwave24" src="audio/audiosr/nuwave2/2000/s5_156.png" width="100%">
                               </td>
-                              <td><p><strong>Fre-Painter</strong></p>
-                                <audio id="asr_ours4" controls >
-                                    <source id="asr_src_ours4" src="audio/audiosr/ours/2000/p270_094.wav" type="audio/wav" />
+                              <td><p><strong>UDM+</strong></p>
+                                <audio id="asr_udm4" controls >
+                                    <source id="asr_src_udm4" src="audio/audiosr/udm/2000/s5_156.wav" type="audio/wav" />
                                 </audio>
-                                <img id="asr_img_ours4" src="audio/audiosr/ours/2000/p270_094.png" width="100%">
+                                <img id="asr_img_udm4" src="audio/audiosr/udm/2000/s5_156.png" width="100%">
                               </td>
+                            </tr>
+                            <tr>
+                              <td rowspan="1" style="vertical-align: top;"><p><strong>Fre-Painter</strong></p>
+                                <audio id="asr_random4" controls >
+                                    <source id="asr_src_random4" src="audio/audiosr/random/2000/s5_156.wav" type="audio/wav" />
+                                </audio>
+                                <img id="asr_img_random4" src="audio/audiosr/random/2000/s5_156.png" width="100%">
+                              </td>
+                              <td></td>
+                              <td></td>
                             </tr>
                           </tbody>
                         </table>
@@ -392,30 +439,30 @@
                                 <img id="asr_img_gt5" src="audio/audiosr/gt/2000/p336_004.png" width="100%">
                               </td>
                               <td><p><strong>GT (degraded)</strong></p>
-                                <audio id="asr_src5" controls >
-                                    <source id="asr_src_src5" src="audio/audiosr/src/2000/p336_004.wav" type="audio/wav" />
+                                <audio id="asr_source5" controls >
+                                    <source id="asr_src_source5" src="audio/audiosr/src/2000/p336_004.wav" type="audio/wav" />
                                 </audio>
-                                <img id="asr_img_src5" src="audio/audiosr/src/2000/p336_004.png" width="100%">
+                                <img id="asr_img_source5" src="audio/audiosr/src/2000/p336_004.png" width="100%">
                               </td>
                             </tr>
                             <tr>
-                              <td rowspan="1" style="vertical-align: top;"><p><strong>HiFi-GAN</strong></p>
-                                <audio id="asr_hifigan5" controls >
-                                    <source id="asr_src_hifigan5" src="audio/audiosr/hifigan/2000/p336_004.wav" type="audio/wav" />
+                              <td rowspan="1" style="vertical-align: top;"><p><strong>VoiceFixer</strong></p>
+                                <audio id="asr_voicefixer5" controls >
+                                    <source id="asr_src_voicefixer5" src="audio/audiosr/hifigan/2000/p336_004.wav" type="audio/wav" />
                                 </audio>
-                                <img id="asr_img_hifigan5" src="audio/audiosr/hifigan/2000/p336_004.png" width="100%">
+                                <img id="asr_img_voicefixer5" src="audio/audiosr/hifigan/2000/p336_004.png" width="100%">
                               </td>
                               <td><p><strong>NU-Wave 2</strong></p>
                                 <audio id="asr_nu5" controls >
-                                    <source id="asr_src_nu5" src="audio/audiosr/nu/2000/p336_004.wav" type="audio/wav" />
+                                    <source id="asr_src_nuwave25" src="audio/audiosr/nu/2000/p336_004.wav" type="audio/wav" />
                                 </audio>
-                                <img id="asr_img_nu5" src="audio/audiosr/nu/2000/p336_004.png" width="100%">
+                                <img id="asr_img_nuwave25" src="audio/audiosr/nu/2000/p336_004.png" width="100%">
                               </td>
                               <td><p><strong>Fre-Painter</strong></p>
                                 <audio id="asr_ours5" controls >
-                                    <source id="asr_src_ours5" src="audio/audiosr/ours/2000/p336_004.wav" type="audio/wav" />
+                                    <source id="asr_src_udm5" src="audio/audiosr/ours/2000/p336_004.wav" type="audio/wav" />
                                 </audio>
-                                <img id="asr_img_ours5" src="audio/audiosr/ours/2000/p336_004.png" width="100%">
+                                <img id="asr_img_udm5" src="audio/audiosr/ours/2000/p336_004.png" width="100%">
                               </td>
                             </tr>
                           </tbody>
@@ -468,15 +515,15 @@
                               </td>
                               <td><p><strong>GT (degraded)</strong></p>
                                 <audio id="abl_src" controls >
-                                    <source id="abl_src_src" src="audio/ablation/src/2000/p241_071.wav" type="audio/wav" />
+                                    <source id="abl_src_source" src="audio/ablation/src/2000/p241_071.wav" type="audio/wav" />
                                 </audio>
-                                <img id="abl_img_src" src="audio/ablation/src/2000/p241_071.png" width="100%">
+                                <img id="abl_img_source" src="audio/ablation/src/2000/p241_071.png" width="100%">
                               </td>
                               <td><p><strong>Fre-Painter</strong></p>
                                 <audio id="abl_ours" controls >
-                                    <source id="abl_src_ours" src="audio/ablation/ours/2000/p241_071.wav" type="audio/wav" />
+                                    <source id="abl_src_udm" src="audio/ablation/ours/2000/p241_071.wav" type="audio/wav" />
                                 </audio>
-                                <img id="abl_img_ours" src="audio/ablation/ours/2000/p241_071.png" width="100%">
+                                <img id="abl_img_udm" src="audio/ablation/ours/2000/p241_071.png" width="100%">
                               </td>
                             </tr>
                             <tr>
@@ -532,15 +579,15 @@
                               </td>
                               <td><p><strong>GT (degraded)</strong></p>
                                 <audio id="abl_src1" controls >
-                                    <source id="abl_src_src1" src="audio/ablation/src/2000/p253_301.wav" type="audio/wav" />
+                                    <source id="abl_src_source1" src="audio/ablation/src/2000/p253_301.wav" type="audio/wav" />
                                 </audio>
-                                <img id="abl_img_src1" src="audio/ablation/src/2000/p253_301.png" width="100%">
+                                <img id="abl_img_source1" src="audio/ablation/src/2000/p253_301.png" width="100%">
                               </td>
                               <td><p><strong>Fre-Painter</strong></p>
                                 <audio id="abl_ours1" controls >
-                                    <source id="abl_src_ours1" src="audio/ablation/ours/2000/p253_301.wav" type="audio/wav" />
+                                    <source id="abl_src_udm1" src="audio/ablation/ours/2000/p253_301.wav" type="audio/wav" />
                                 </audio>
-                                <img id="abl_img_ours1" src="audio/ablation/ours/2000/p253_301.png" width="100%">
+                                <img id="abl_img_udm1" src="audio/ablation/ours/2000/p253_301.png" width="100%">
                               </td>
                             </tr>
                             <tr>
@@ -596,15 +643,15 @@
                               </td>
                               <td><p><strong>GT (degraded)</strong></p>
                                 <audio id="abl_src2" controls >
-                                    <source id="abl_src_src2" src="audio/ablation/src/2000/p256_133.wav" type="audio/wav" />
+                                    <source id="abl_src_source2" src="audio/ablation/src/2000/p256_133.wav" type="audio/wav" />
                                 </audio>
-                                <img id="abl_img_src2" src="audio/ablation/src/2000/p256_133.png" width="100%">
+                                <img id="abl_img_source2" src="audio/ablation/src/2000/p256_133.png" width="100%">
                               </td>
                               <td><p><strong>Fre-Painter</strong></p>
                                 <audio id="abl_ours2" controls >
-                                    <source id="abl_src_ours2" src="audio/ablation/ours/2000/p256_133.wav" type="audio/wav" />
+                                    <source id="abl_src_udm2" src="audio/ablation/ours/2000/p256_133.wav" type="audio/wav" />
                                 </audio>
-                                <img id="abl_img_ours2" src="audio/ablation/ours/2000/p256_133.png" width="100%">
+                                <img id="abl_img_udm2" src="audio/ablation/ours/2000/p256_133.png" width="100%">
                               </td>
                             </tr>
                             <tr>
@@ -660,15 +707,15 @@
                               </td>
                               <td><p><strong>GT (degraded)</strong></p>
                                 <audio id="abl_src3" controls >
-                                    <source id="abl_src_src3" src="audio/ablation/src/2000/p266_151.wav" type="audio/wav" />
+                                    <source id="abl_src_source3" src="audio/ablation/src/2000/p266_151.wav" type="audio/wav" />
                                 </audio>
-                                <img id="abl_img_src3" src="audio/ablation/src/2000/p266_151.png" width="100%">
+                                <img id="abl_img_source3" src="audio/ablation/src/2000/p266_151.png" width="100%">
                               </td>
                               <td><p><strong>Fre-Painter</strong></p>
                                 <audio id="abl_ours3" controls >
-                                    <source id="abl_src_ours3" src="audio/ablation/ours/2000/p266_151.wav" type="audio/wav" />
+                                    <source id="abl_src_udm3" src="audio/ablation/ours/2000/p266_151.wav" type="audio/wav" />
                                 </audio>
-                                <img id="abl_img_ours3" src="audio/ablation/ours/2000/p266_151.png" width="100%">
+                                <img id="abl_img_udm3" src="audio/ablation/ours/2000/p266_151.png" width="100%">
                               </td>
                             </tr>
                             <tr>
@@ -724,15 +771,15 @@
                               </td>
                               <td><p><strong>GT (degraded)</strong></p>
                                 <audio id="abl_src4" controls >
-                                    <source id="abl_src_src4" src="audio/ablation/src/2000/p336_087.wav" type="audio/wav" />
+                                    <source id="abl_src_source4" src="audio/ablation/src/2000/p336_087.wav" type="audio/wav" />
                                 </audio>
-                                <img id="abl_img_src4" src="audio/ablation/src/2000/p336_087.png" width="100%">
+                                <img id="abl_img_source4" src="audio/ablation/src/2000/p336_087.png" width="100%">
                               </td>
                               <td><p><strong>Fre-Painter</strong></p>
                                 <audio id="abl_ours4" controls >
-                                    <source id="abl_src_ours4" src="audio/ablation/ours/2000/p336_087.wav" type="audio/wav" />
+                                    <source id="abl_src_udm4" src="audio/ablation/ours/2000/p336_087.wav" type="audio/wav" />
                                 </audio>
-                                <img id="abl_img_ours4" src="audio/ablation/ours/2000/p336_087.png" width="100%">
+                                <img id="abl_img_udm4" src="audio/ablation/ours/2000/p336_087.png" width="100%">
                               </td>
                             </tr>
                             <tr>
@@ -1081,7 +1128,7 @@
             console.log(test_image)
             console.log(test_audio)
 
-            $('#test_img_src').attr("src", test_image);
+            $('#test_img_source').attr("src", test_image);
             $('#test_audio_src').attr("src", test_audio);
             console.log($('#test_audio_src').val());
             console.log($("#audio_panel"))
@@ -1097,7 +1144,7 @@
             png_name = '/'+name+'.png';
             $('#sr'+i).css("background-color", "greenyellow")
 
-            for (j=0;j<18000;j +=2000)
+            for (j=0;j<26000;j +=2000)
             {
               if (j!=i)
               {	
@@ -1117,65 +1164,90 @@
           var img_gt = "./audio/audiosr/gt/" + sr + png_name;
           var src_gt = "./audio/audiosr/gt/" + sr + wav_name;
         
-          var img_src = "audio/audiosr/src/" + sr + png_name;
-          var src_src = "audio/audiosr/src/" + sr + wav_name;
+          var img_source = "audio/audiosr/source/" + sr + png_name;
+          var src_source = "audio/audiosr/source/" + sr + wav_name;
           
-          var img_hifigan = "./audio/audiosr/hifigan/" + sr + png_name;
-          var src_hifigan = "./audio/audiosr/hifigan/" + sr + wav_name;
+          var img_voicefixer = "./audio/audiosr/voicefixer/" + sr + png_name;
+          var src_voicefixer = "./audio/audiosr/voicefixer/" + sr + wav_name;
 
-          var img_nu = "./audio/audiosr/nu/" + sr + png_name;
-          var src_nu = "./audio/audiosr/nu/" + sr + wav_name;
+          var img_nuwave2 = "./audio/audiosr/nuwave2/" + sr + png_name;
+          var src_nuwave2 = "./audio/audiosr/nuwave2/" + sr + wav_name;
 
-          var img_ours = "./audio/audiosr/ours/" + sr + png_name;
-          var src_ours = "./audio/audiosr/ours/" + sr + wav_name;
+          var img_udm = "./audio/audiosr/udm/" + sr + png_name;
+          var src_udm = "./audio/audiosr/udm/" + sr + wav_name;
+
+          var img_random = "./audio/audiosr/random/" + sr + png_name;
+          var src_random = "./audio/audiosr/random/" + sr + wav_name;
+
+          var img_fix = "./audio/audiosr/fix/" + sr + png_name;
+          var src_fix = "./audio/audiosr/fix/" + sr + wav_name;
 
         console.log(img_gt)
         console.log(src_gt)
         
-        console.log(img_src)
-        console.log(src_src)
+        console.log(img_source)
+        console.log(src_source)
 
-        console.log(img_hifigan)
-        console.log(src_hifigan)
+        console.log(img_voicefixer)
+        console.log(src_voicefixer)
 
-        console.log(img_nu)
-        console.log(src_nu)
+        console.log(img_nuwave2)
+        console.log(src_nuwave2)
 
-        console.log(img_ours)
-        console.log(src_ours)
+        console.log(img_udm)
+        console.log(src_udm)
 
+        console.log(img_random)
+        console.log(src_random)
 
-        $('#asr_img_src').attr("src", img_src);
-        $('#asr_src_src').attr("src", src_src);
+        console.log(img_fix)
+        console.log(src_fix)
 
-        console.log($('#asr_src_src').val());
-        console.log($("#asr_src"))
-        $('#asr_src')[0].load();
+        $('#asr_img_source').attr("src", img_source);
+        $('#asr_src_source').attr("src", src_source);
 
-
-        $('#asr_img_hifigan').attr("src", img_hifigan);
-        $('#asr_src_hifigan').attr("src", src_hifigan);
-
-        console.log($('#asr_src_hifigan').val());
-        console.log($("#asr_hifigan"))
-        $('#asr_hifigan')[0].load();
+        console.log($('#asr_src_source').val());
+        console.log($("#asr_source"))
+        $('#asr_source')[0].load();
 
 
-        $('#asr_img_nu').attr("src", img_nu);
-        $('#asr_src_nu').attr("src", src_nu);
+        $('#asr_img_voicefixer').attr("src", img_voicefixer);
+        $('#asr_src_voicefixer').attr("src", src_voicefixer);
 
-        console.log($('#asr_src_nu').val());
-        console.log($("#asr_nu"))
-        $('#asr_nu')[0].load();
+        console.log($('#asr_src_voicefixer').val());
+        console.log($("#asr_voicefixer"))
+        $('#asr_voicefixer')[0].load();
 
 
-        $('#asr_img_ours').attr("src", img_ours);
-        $('#asr_src_ours').attr("src", src_ours);
+        $('#asr_img_nuwave2').attr("src", img_nuwave2);
+        $('#asr_src_nuwave2').attr("src", src_nuwave2);
 
-        console.log($('#asr_src_ours').val());
-        console.log($("#asr_ours"))
-        $('#asr_ours')[0].load();
+        console.log($('#asr_src_nuwave2').val());
+        console.log($("#asr_nuwave2"))
+        $('#asr_nuwave2')[0].load();
+
+
+        $('#asr_img_udm').attr("src", img_udm);
+        $('#asr_src_udm').attr("src", src_udm);
+
+        console.log($('#asr_src_udm').val());
+        console.log($("#asr_udm"))
+        $('#asr_udm')[0].load();
       
+        $('#asr_img_random').attr("src", img_random);
+        $('#asr_src_random').attr("src", src_random);
+
+        console.log($('#asr_src_random').val());
+        console.log($("#asr_random"))
+        $('#asr_random')[0].load();
+
+        $('#asr_img_fix').attr("src", img_fix);
+        $('#asr_src_fix').attr("src", src_fix);
+
+        console.log($('#asr_src_random').val());
+        console.log($("#asr_fix"))
+        $('#asr_fix')[0].load();
+
 
               };
 
@@ -1186,7 +1258,7 @@
             png_name = '/'+name+'.png';
             $('#sr2'+i).css("background-color", "greenyellow")
 
-            for (j=0;j<18000;j +=2000)
+            for (j=0;j<26000;j +=2000)
             {
               if (j!=i)
               {	
@@ -1206,64 +1278,75 @@
           var img_gt = "./audio/audiosr/gt/" + sr + png_name;
           var src_gt = "./audio/audiosr/gt/" + sr + wav_name;
         
-          var img_src = "audio/audiosr/src/" + sr + png_name;
-          var src_src = "audio/audiosr/src/" + sr + wav_name;
+          var img_source = "audio/audiosr/source/" + sr + png_name;
+          var src_source = "audio/audiosr/source/" + sr + wav_name;
           
-          var img_hifigan = "./audio/audiosr/hifigan/" + sr + png_name;
-          var src_hifigan = "./audio/audiosr/hifigan/" + sr + wav_name;
+          var img_voicefixer = "./audio/audiosr/voicefixer/" + sr + png_name;
+          var src_voicefixer = "./audio/audiosr/voicefixer/" + sr + wav_name;
 
-          var img_nu = "./audio/audiosr/nu/" + sr + png_name;
-          var src_nu = "./audio/audiosr/nu/" + sr + wav_name;
+          var img_nuwave2 = "./audio/audiosr/nuwave2/" + sr + png_name;
+          var src_nuwave2 = "./audio/audiosr/nuwave2/" + sr + wav_name;
 
-          var img_ours = "./audio/audiosr/ours/" + sr + png_name;
-          var src_ours = "./audio/audiosr/ours/" + sr + wav_name;
+          var img_udm = "./audio/audiosr/udm/" + sr + png_name;
+          var src_udm = "./audio/audiosr/udm/" + sr + wav_name;
+
+          var img_random = "./audio/audiosr/random/" + sr + png_name;
+          var src_random = "./audio/audiosr/random/" + sr + wav_name;
 
         console.log(img_gt)
         console.log(src_gt)
         
-        console.log(img_src)
-        console.log(src_src)
+        console.log(img_source)
+        console.log(src_source)
 
-        console.log(img_hifigan)
-        console.log(src_hifigan)
+        console.log(img_voicefixer)
+        console.log(src_voicefixer)
 
-        console.log(img_nu)
-        console.log(src_nu)
+        console.log(img_nuwave2)
+        console.log(src_nuwave2)
 
-        console.log(img_ours)
-        console.log(src_ours)
-
-
-        $('#asr_img_src2').attr("src", img_src);
-        $('#asr_src_src2').attr("src", src_src);
-
-        console.log($('#asr_src_src2').val());
-        console.log($("#asr_src2"))
-        $('#asr_src2')[0].load();
+        console.log(img_udm)
+        console.log(src_udm)
 
 
-        $('#asr_img_hifigan2').attr("src", img_hifigan);
-        $('#asr_src_hifigan2').attr("src", src_hifigan);
+        $('#asr_img_source2').attr("src", img_source);
+        $('#asr_src_source2').attr("src", src_source);
 
-        console.log($('#asr_src_hifigan2').val());
-        console.log($("#asr_hifigan2"))
-        $('#asr_hifigan2')[0].load();
-
-
-        $('#asr_img_nu2').attr("src", img_nu);
-        $('#asr_src_nu2').attr("src", src_nu);
-
-        console.log($('#asr_src_nu2').val());
-        console.log($("#asr_nu2"))
-        $('#asr_nu2')[0].load();
+        console.log($('#asr_src_source2').val());
+        console.log($("#asr_source2"))
+        $('#asr_source2')[0].load();
 
 
-        $('#asr_img_ours2').attr("src", img_ours);
-        $('#asr_src_ours2').attr("src", src_ours);
+        $('#asr_img_voicefixer2').attr("src", img_voicefixer);
+        $('#asr_src_voicefixer2').attr("src", src_voicefixer);
 
-        console.log($('#asr_src_ours2').val());
-        console.log($("#asr_ours2"))
-        $('#asr_ours2')[0].load();
+        console.log($('#asr_src_voicefixer2').val());
+        console.log($("#asr_voicefixer2"))
+        $('#asr_voicefixer2')[0].load();
+
+
+        $('#asr_img_nuwave22').attr("src", img_nuwave2);
+        $('#asr_src_nuwave22').attr("src", src_nuwave2);
+
+        console.log($('#asr_src_nuwave22').val());
+        console.log($("#asr_nuwave22"))
+        $('#asr_nuwave22')[0].load();
+
+
+        $('#asr_img_udm2').attr("src", img_udm);
+        $('#asr_src_udm2').attr("src", src_udm);
+
+        console.log($('#asr_src_udm2').val());
+        console.log($("#asr_udm2"))
+        $('#asr_udm2')[0].load();
+
+        $('#asr_img_random2').attr("src", img_random);
+        $('#asr_src_random2').attr("src", src_random);
+
+        console.log($('#asr_src_random2').val());
+        console.log($("#asr_random2"))
+        $('#asr_random2')[0].load();
+
       
 
               };
@@ -1274,7 +1357,7 @@
             png_name = '/'+name+'.png';
             $('#sr3'+i).css("background-color", "greenyellow")
 
-            for (j=0;j<18000;j +=2000)
+            for (j=0;j<26000;j +=2000)
             {
               if (j!=i)
               {	
@@ -1291,68 +1374,77 @@
 				
         sr = Number(sr);
         console.log(sr)
-          var img_gt = "./audio/audiosr/gt/" + sr + png_name;
-          var src_gt = "./audio/audiosr/gt/" + sr + wav_name;
+        var img_gt = "./audio/audiosr/gt/" + sr + png_name;
+        var src_gt = "./audio/audiosr/gt/" + sr + wav_name;
+      
+        var img_source = "audio/audiosr/source/" + sr + png_name;
+        var src_source = "audio/audiosr/source/" + sr + wav_name;
         
-          var img_src = "audio/audiosr/src/" + sr + png_name;
-          var src_src = "audio/audiosr/src/" + sr + wav_name;
-          
-          var img_hifigan = "./audio/audiosr/hifigan/" + sr + png_name;
-          var src_hifigan = "./audio/audiosr/hifigan/" + sr + wav_name;
+        var img_voicefixer = "./audio/audiosr/voicefixer/" + sr + png_name;
+        var src_voicefixer = "./audio/audiosr/voicefixer/" + sr + wav_name;
 
-          var img_nu = "./audio/audiosr/nu/" + sr + png_name;
-          var src_nu = "./audio/audiosr/nu/" + sr + wav_name;
+        var img_nuwave2 = "./audio/audiosr/nuwave2/" + sr + png_name;
+        var src_nuwave2 = "./audio/audiosr/nuwave2/" + sr + wav_name;
 
-          var img_ours = "./audio/audiosr/ours/" + sr + png_name;
-          var src_ours = "./audio/audiosr/ours/" + sr + wav_name;
+        var img_udm = "./audio/audiosr/udm/" + sr + png_name;
+        var src_udm = "./audio/audiosr/udm/" + sr + wav_name;
+
+        var img_random = "./audio/audiosr/random/" + sr + png_name;
+        var src_random = "./audio/audiosr/random/" + sr + wav_name;
 
         console.log(img_gt)
         console.log(src_gt)
         
-        console.log(img_src)
-        console.log(src_src)
+        console.log(img_source)
+        console.log(src_source)
 
-        console.log(img_hifigan)
-        console.log(src_hifigan)
+        console.log(img_voicefixer)
+        console.log(src_voicefixer)
 
-        console.log(img_nu)
-        console.log(src_nu)
+        console.log(img_nuwave2)
+        console.log(src_nuwave2)
 
-        console.log(img_ours)
-        console.log(src_ours)
-
-
-        $('#asr_img_src3').attr("src", img_src);
-        $('#asr_src_src3').attr("src", src_src);
-
-        console.log($('#asr_src_src3').val());
-        console.log($("#asr_src3"))
-        $('#asr_src3')[0].load();
+        console.log(img_udm)
+        console.log(src_udm)
 
 
-        $('#asr_img_hifigan3').attr("src", img_hifigan);
-        $('#asr_src_hifigan3').attr("src", src_hifigan);
+        $('#asr_img_source3').attr("src", img_source);
+        $('#asr_src_source3').attr("src", src_source);
 
-        console.log($('#asr_src_hifigan3').val());
-        console.log($("#asr_hifigan3"))
-        $('#asr_hifigan3')[0].load();
-
-
-        $('#asr_img_nu3').attr("src", img_nu);
-        $('#asr_src_nu3').attr("src", src_nu);
-
-        console.log($('#asr_src_nu3').val());
-        console.log($("#asr_nu3"))
-        $('#asr_nu3')[0].load();
+        console.log($('#asr_src_source3').val());
+        console.log($("#asr_source3"))
+        $('#asr_source3')[0].load();
 
 
-        $('#asr_img_ours3').attr("src", img_ours);
-        $('#asr_src_ours3').attr("src", src_ours);
+        $('#asr_img_voicefixer3').attr("src", img_voicefixer);
+        $('#asr_src_voicefixer3').attr("src", src_voicefixer);
 
-        console.log($('#asr_src_ours3').val());
-        console.log($("#asr_ours3"))
-        $('#asr_ours3')[0].load();
+        console.log($('#asr_src_voicefixer3').val());
+        console.log($("#asr_voicefixer3"))
+        $('#asr_voicefixer3')[0].load();
+
+
+        $('#asr_img_nuwave23').attr("src", img_nuwave2);
+        $('#asr_src_nuwave23').attr("src", src_nuwave2);
+
+        console.log($('#asr_src_nuwave23').val());
+        console.log($("#asr_nuwave23"))
+        $('#asr_nuwave23')[0].load();
+
+
+        $('#asr_img_udm3').attr("src", img_udm);
+        $('#asr_src_udm3').attr("src", src_udm);
+
+        console.log($('#asr_src_udm3').val());
+        console.log($("#asr_udm3"))
+        $('#asr_udm3')[0].load();
       
+        $('#asr_img_random3').attr("src", img_random);
+        $('#asr_src_random3').attr("src", src_random);
+
+        console.log($('#asr_src_random3').val());
+        console.log($("#asr_random3"))
+        $('#asr_random3')[0].load();
 
               };
 
@@ -1363,7 +1455,7 @@
             png_name = '/'+name+'.png';
             $('#sr4'+i).css("background-color", "greenyellow")
 
-            for (j=0;j<18000;j +=2000)
+            for (j=0;j<26000;j +=2000)
             {
               if (j!=i)
               {	
@@ -1380,69 +1472,78 @@
 				
         sr = Number(sr);
         console.log(sr)
-          var img_gt = "./audio/audiosr/gt/" + sr + png_name;
-          var src_gt = "./audio/audiosr/gt/" + sr + wav_name;
+        var img_gt = "./audio/audiosr/gt/" + sr + png_name;
+        var src_gt = "./audio/audiosr/gt/" + sr + wav_name;
+      
+        var img_source = "audio/audiosr/source/" + sr + png_name;
+        var src_source = "audio/audiosr/source/" + sr + wav_name;
         
-          var img_src = "audio/audiosr/src/" + sr + png_name;
-          var src_src = "audio/audiosr/src/" + sr + wav_name;
-          
-          var img_hifigan = "./audio/audiosr/hifigan/" + sr + png_name;
-          var src_hifigan = "./audio/audiosr/hifigan/" + sr + wav_name;
+        var img_voicefixer = "./audio/audiosr/voicefixer/" + sr + png_name;
+        var src_voicefixer = "./audio/audiosr/voicefixer/" + sr + wav_name;
 
-          var img_nu = "./audio/audiosr/nu/" + sr + png_name;
-          var src_nu = "./audio/audiosr/nu/" + sr + wav_name;
+        var img_nuwave2 = "./audio/audiosr/nuwave2/" + sr + png_name;
+        var src_nuwave2 = "./audio/audiosr/nuwave2/" + sr + wav_name;
 
-          var img_ours = "./audio/audiosr/ours/" + sr + png_name;
-          var src_ours = "./audio/audiosr/ours/" + sr + wav_name;
+        var img_udm = "./audio/audiosr/udm/" + sr + png_name;
+        var src_udm = "./audio/audiosr/udm/" + sr + wav_name;
+
+        var img_random = "./audio/audiosr/random/" + sr + png_name;
+        var src_random = "./audio/audiosr/random/" + sr + wav_name;
 
         console.log(img_gt)
         console.log(src_gt)
         
-        console.log(img_src)
-        console.log(src_src)
+        console.log(img_source)
+        console.log(src_source)
 
-        console.log(img_hifigan)
-        console.log(src_hifigan)
+        console.log(img_voicefixer)
+        console.log(src_voicefixer)
 
-        console.log(img_nu)
-        console.log(src_nu)
+        console.log(img_nuwave2)
+        console.log(src_nuwave2)
 
-        console.log(img_ours)
-        console.log(src_ours)
-
-
-        $('#asr_img_src4').attr("src", img_src);
-        $('#asr_src_src4').attr("src", src_src);
-
-        console.log($('#asr_src_src4').val());
-        console.log($("#asr_src4"))
-        $('#asr_src4')[0].load();
+        console.log(img_udm)
+        console.log(src_udm)
 
 
-        $('#asr_img_hifigan4').attr("src", img_hifigan);
-        $('#asr_src_hifigan4').attr("src", src_hifigan);
+        $('#asr_img_source4').attr("src", img_source);
+        $('#asr_src_source4').attr("src", src_source);
 
-        console.log($('#asr_src_hifigan4').val());
-        console.log($("#asr_hifigan4"))
-        $('#asr_hifigan4')[0].load();
-
-
-        $('#asr_img_nu4').attr("src", img_nu);
-        $('#asr_src_nu4').attr("src", src_nu);
-
-        console.log($('#asr_src_nu4').val());
-        console.log($("#asr_nu4"))
-        $('#asr_nu4')[0].load();
+        console.log($('#asr_src_source4').val());
+        console.log($("#asr_source4"))
+        $('#asr_source4')[0].load();
 
 
-        $('#asr_img_ours4').attr("src", img_ours);
-        $('#asr_src_ours4').attr("src", src_ours);
+        $('#asr_img_voicefixer4').attr("src", img_voicefixer);
+        $('#asr_src_voicefixer4').attr("src", src_voicefixer);
 
-        console.log($('#asr_src_ours4').val());
-        console.log($("#asr_ours4"))
-        $('#asr_ours4')[0].load();
+        console.log($('#asr_src_voicefixer4').val());
+        console.log($("#asr_voicefixer4"))
+        $('#asr_voicefixer4')[0].load();
+
+
+        $('#asr_img_nuwave24').attr("src", img_nuwave2);
+        $('#asr_src_nuwave24').attr("src", src_nuwave2);
+
+        console.log($('#asr_src_nuwave24').val());
+        console.log($("#asr_nuwave24"))
+        $('#asr_nuwave24')[0].load();
+
+
+        $('#asr_img_udm4').attr("src", img_udm);
+        $('#asr_src_udm4').attr("src", src_udm);
+
+        console.log($('#asr_src_udm4').val());
+        console.log($("#asr_udm4"))
+        $('#asr_udm4')[0].load();
       
 
+        $('#asr_img_random4').attr("src", img_random);
+        $('#asr_src_random4').attr("src", src_random);
+
+        console.log($('#asr_src_random4').val());
+        console.log($("#asr_random4"))
+        $('#asr_random4')[0].load();
               };
 
               function sr_click5(i, name){
@@ -1451,7 +1552,7 @@
             png_name = '/'+name+'.png';
             $('#sr5'+i).css("background-color", "greenyellow")
 
-            for (j=0;j<18000;j +=2000)
+            for (j=0;j<26000;j +=2000)
             {
               if (j!=i)
               {	
@@ -1468,68 +1569,77 @@
 				
         sr = Number(sr);
         console.log(sr)
-          var img_gt = "./audio/audiosr/gt/" + sr + png_name;
-          var src_gt = "./audio/audiosr/gt/" + sr + wav_name;
+        var img_gt = "./audio/audiosr/gt/" + sr + png_name;
+        var src_gt = "./audio/audiosr/gt/" + sr + wav_name;
+      
+        var img_source = "audio/audiosr/source/" + sr + png_name;
+        var src_source = "audio/audiosr/source/" + sr + wav_name;
         
-          var img_src = "audio/audiosr/src/" + sr + png_name;
-          var src_src = "audio/audiosr/src/" + sr + wav_name;
-          
-          var img_hifigan = "./audio/audiosr/hifigan/" + sr + png_name;
-          var src_hifigan = "./audio/audiosr/hifigan/" + sr + wav_name;
+        var img_voicefixer = "./audio/audiosr/voicefixer/" + sr + png_name;
+        var src_voicefixer = "./audio/audiosr/voicefixer/" + sr + wav_name;
 
-          var img_nu = "./audio/audiosr/nu/" + sr + png_name;
-          var src_nu = "./audio/audiosr/nu/" + sr + wav_name;
+        var img_nuwave2 = "./audio/audiosr/nuwave2/" + sr + png_name;
+        var src_nuwave2 = "./audio/audiosr/nuwave2/" + sr + wav_name;
 
-          var img_ours = "./audio/audiosr/ours/" + sr + png_name;
-          var src_ours = "./audio/audiosr/ours/" + sr + wav_name;
+        var img_udm = "./audio/audiosr/udm/" + sr + png_name;
+        var src_udm = "./audio/audiosr/udm/" + sr + wav_name;
+
+        var img_random = "./audio/audiosr/random/" + sr + png_name;
+        var src_random = "./audio/audiosr/random/" + sr + wav_name;
 
         console.log(img_gt)
         console.log(src_gt)
         
-        console.log(img_src)
-        console.log(src_src)
+        console.log(img_source)
+        console.log(src_source)
 
-        console.log(img_hifigan)
-        console.log(src_hifigan)
+        console.log(img_voicefixer)
+        console.log(src_voicefixer)
 
-        console.log(img_nu)
-        console.log(src_nu)
+        console.log(img_nuwave2)
+        console.log(src_nuwave2)
 
-        console.log(img_ours)
-        console.log(src_ours)
-
-
-        $('#asr_img_src5').attr("src", img_src);
-        $('#asr_src_src5').attr("src", src_src);
-
-        console.log($('#asr_src_src5').val());
-        console.log($("#asr_src5"))
-        $('#asr_src5')[0].load();
+        console.log(img_udm)
+        console.log(src_udm)
 
 
-        $('#asr_img_hifigan5').attr("src", img_hifigan);
-        $('#asr_src_hifigan5').attr("src", src_hifigan);
+        $('#asr_img_source5').attr("src", img_source);
+        $('#asr_src_source5').attr("src", src_source);
 
-        console.log($('#asr_src_hifigan5').val());
-        console.log($("#asr_hifigan5"))
-        $('#asr_hifigan5')[0].load();
-
-
-        $('#asr_img_nu5').attr("src", img_nu);
-        $('#asr_src_nu5').attr("src", src_nu);
-
-        console.log($('#asr_src_nu5').val());
-        console.log($("#asr_nu5"))
-        $('#asr_nu5')[0].load();
+        console.log($('#asr_src_source5').val());
+        console.log($("#asr_source5"))
+        $('#asr_source5')[0].load();
 
 
-        $('#asr_img_ours5').attr("src", img_ours);
-        $('#asr_src_ours5').attr("src", src_ours);
+        $('#asr_img_voicefixer5').attr("src", img_voicefixer);
+        $('#asr_src_voicefixer5').attr("src", src_voicefixer);
 
-        console.log($('#asr_src_ours5').val());
-        console.log($("#asr_ours5"))
-        $('#asr_ours5')[0].load();
+        console.log($('#asr_src_voicefixer5').val());
+        console.log($("#asr_voicefixer5"))
+        $('#asr_voicefixer5')[0].load();
+
+
+        $('#asr_img_nuwave25').attr("src", img_nuwave2);
+        $('#asr_src_nuwave25').attr("src", src_nuwave2);
+
+        console.log($('#asr_src_nuwave25').val());
+        console.log($("#asr_nuwave25"))
+        $('#asr_nuwave25')[0].load();
+
+
+        $('#asr_img_udm5').attr("src", img_udm);
+        $('#asr_src_udm5').attr("src", src_udm);
+
+        console.log($('#asr_src_udm5').val());
+        console.log($("#asr_udm5"))
+        $('#asr_udm5')[0].load();
       
+        $('#asr_img_random5').attr("src", img_random);
+        $('#asr_src_random5').attr("src", src_random);
+
+        console.log($('#asr_src_random5').val());
+        console.log($("#asr_random5"))
+        $('#asr_random5')[0].load();
 
               };        
 
@@ -1539,7 +1649,7 @@
             png_name = '/'+name+'.png';
             $('#ssr'+i).css("background-color", "greenyellow")
 
-            for (j=0;j<18000;j +=2000)
+            for (j=0;j<26000;j +=2000)
             {
               if (j!=i)
               {	
@@ -1559,11 +1669,11 @@
           var img_gt = "./audio/ablation/gt/" + sr + png_name;
           var src_gt = "./audio/ablation/gt/" + sr + wav_name;
         
-          var img_src = "audio/ablation/src/" + sr + png_name;
-          var src_src = "audio/ablation/src/" + sr + wav_name;
+          var img_source = "audio/ablation/src/" + sr + png_name;
+          var src_source = "audio/ablation/src/" + sr + wav_name;
           
-          var img_ours = "./audio/ablation/ours/" + sr + png_name;
-          var src_ours = "./audio/ablation/ours/" + sr + wav_name;
+          var img_udm = "./audio/ablation/ours/" + sr + png_name;
+          var src_udm = "./audio/ablation/ours/" + sr + wav_name;
 
           var img_pt = "./audio/ablation/scratch/" + sr + png_name;
           var src_pt = "./audio/ablation/scratch/" + sr + wav_name;
@@ -1577,11 +1687,11 @@
         console.log(img_gt)
         console.log(src_gt)
         
-        console.log(img_src)
-        console.log(src_src)
+        console.log(img_source)
+        console.log(src_source)
 
-        console.log(img_ours)
-        console.log(src_ours)
+        console.log(img_udm)
+        console.log(src_udm)
 
         console.log(img_pt)
         console.log(src_pt)
@@ -1593,18 +1703,18 @@
         console.log(src_mask)
 
 
-        $('#abl_img_src').attr("src", img_src);
-        $('#abl_src_src').attr("src", src_src);
+        $('#abl_img_source').attr("src", img_source);
+        $('#abl_src_source').attr("src", src_source);
 
-        console.log($('#abl_src_src').val());
+        console.log($('#abl_src_source').val());
         console.log($("#abl_src"))
         $('#abl_src')[0].load();
 
         
-        $('#abl_img_ours').attr("src", img_ours);
-        $('#abl_src_ours').attr("src", src_ours);
+        $('#abl_img_udm').attr("src", img_udm);
+        $('#abl_src_udm').attr("src", src_udm);
 
-        console.log($('#abl_src_ours').val());
+        console.log($('#abl_src_udm').val());
         console.log($("#abl_ours"))
         $('#abl_ours')[0].load();
 
@@ -1640,7 +1750,7 @@
             png_name = '/'+name+'.png';
             $('#ssr1'+i).css("background-color", "greenyellow")
 
-            for (j=0;j<18000;j +=2000)
+            for (j=0;j<26000;j +=2000)
             {
               if (j!=i)
               {	
@@ -1660,11 +1770,11 @@
           var img_gt = "./audio/ablation/gt/" + sr + png_name;
           var src_gt = "./audio/ablation/gt/" + sr + wav_name;
         
-          var img_src = "audio/ablation/src/" + sr + png_name;
-          var src_src = "audio/ablation/src/" + sr + wav_name;
+          var img_source = "audio/ablation/src/" + sr + png_name;
+          var src_source = "audio/ablation/src/" + sr + wav_name;
           
-          var img_ours = "./audio/ablation/ours/" + sr + png_name;
-          var src_ours = "./audio/ablation/ours/" + sr + wav_name;
+          var img_udm = "./audio/ablation/ours/" + sr + png_name;
+          var src_udm = "./audio/ablation/ours/" + sr + wav_name;
 
           var img_pt = "./audio/ablation/scratch/" + sr + png_name;
           var src_pt = "./audio/ablation/scratch/" + sr + wav_name;
@@ -1678,11 +1788,11 @@
         console.log(img_gt)
         console.log(src_gt)
         
-        console.log(img_src)
-        console.log(src_src)
+        console.log(img_source)
+        console.log(src_source)
 
-        console.log(img_ours)
-        console.log(src_ours)
+        console.log(img_udm)
+        console.log(src_udm)
 
         console.log(img_pt)
         console.log(src_pt)
@@ -1694,18 +1804,18 @@
         console.log(src_mask)
 
 
-        $('#abl_img_src1').attr("src", img_src);
-        $('#abl_src_src1').attr("src", src_src);
+        $('#abl_img_source1').attr("src", img_source);
+        $('#abl_src_source1').attr("src", src_source);
 
-        console.log($('#abl_src_src1').val());
+        console.log($('#abl_src_source1').val());
         console.log($("#abl_src1"))
         $('#abl_src1')[0].load();
 
         
-        $('#abl_img_ours1').attr("src", img_ours);
-        $('#abl_src_ours1').attr("src", src_ours);
+        $('#abl_img_udm1').attr("src", img_udm);
+        $('#abl_src_udm1').attr("src", src_udm);
 
-        console.log($('#abl_src_ours1').val());
+        console.log($('#abl_src_udm1').val());
         console.log($("#abl_ours1"))
         $('#abl_ours1')[0].load();
 
@@ -1741,7 +1851,7 @@
             png_name = '/'+name+'.png';
             $('#ssr2'+i).css("background-color", "greenyellow")
 
-            for (j=0;j<18000;j +=2000)
+            for (j=0;j<26000;j +=2000)
             {
               if (j!=i)
               {	
@@ -1761,11 +1871,11 @@
           var img_gt = "./audio/ablation/gt/" + sr + png_name;
           var src_gt = "./audio/ablation/gt/" + sr + wav_name;
         
-          var img_src = "audio/ablation/src/" + sr + png_name;
-          var src_src = "audio/ablation/src/" + sr + wav_name;
+          var img_source = "audio/ablation/src/" + sr + png_name;
+          var src_source = "audio/ablation/src/" + sr + wav_name;
           
-          var img_ours = "./audio/ablation/ours/" + sr + png_name;
-          var src_ours = "./audio/ablation/ours/" + sr + wav_name;
+          var img_udm = "./audio/ablation/ours/" + sr + png_name;
+          var src_udm = "./audio/ablation/ours/" + sr + wav_name;
 
           var img_pt = "./audio/ablation/scratch/" + sr + png_name;
           var src_pt = "./audio/ablation/scratch/" + sr + wav_name;
@@ -1779,11 +1889,11 @@
         console.log(img_gt)
         console.log(src_gt)
         
-        console.log(img_src)
-        console.log(src_src)
+        console.log(img_source)
+        console.log(src_source)
 
-        console.log(img_ours)
-        console.log(src_ours)
+        console.log(img_udm)
+        console.log(src_udm)
 
         console.log(img_pt)
         console.log(src_pt)
@@ -1795,18 +1905,18 @@
         console.log(src_mask)
 
 
-        $('#abl_img_src2').attr("src", img_src);
-        $('#abl_src_src2').attr("src", src_src);
+        $('#abl_img_source2').attr("src", img_source);
+        $('#abl_src_source2').attr("src", src_source);
 
-        console.log($('#abl_src_src2').val());
+        console.log($('#abl_src_source2').val());
         console.log($("#abl_src2"))
         $('#abl_src2')[0].load();
 
         
-        $('#abl_img_ours2').attr("src", img_ours);
-        $('#abl_src_ours2').attr("src", src_ours);
+        $('#abl_img_udm2').attr("src", img_udm);
+        $('#abl_src_udm2').attr("src", src_udm);
 
-        console.log($('#abl_src_ours2').val());
+        console.log($('#abl_src_udm2').val());
         console.log($("#abl_ours2"))
         $('#abl_ours2')[0].load();
 
@@ -1842,7 +1952,7 @@
             png_name = '/'+name+'.png';
             $('#ssr3'+i).css("background-color", "greenyellow")
 
-            for (j=0;j<18000;j +=2000)
+            for (j=0;j<26000;j +=2000)
             {
               if (j!=i)
               {	
@@ -1862,11 +1972,11 @@
           var img_gt = "./audio/ablation/gt/" + sr + png_name;
           var src_gt = "./audio/ablation/gt/" + sr + wav_name;
         
-          var img_src = "audio/ablation/src/" + sr + png_name;
-          var src_src = "audio/ablation/src/" + sr + wav_name;
+          var img_source = "audio/ablation/src/" + sr + png_name;
+          var src_source = "audio/ablation/src/" + sr + wav_name;
           
-          var img_ours = "./audio/ablation/ours/" + sr + png_name;
-          var src_ours = "./audio/ablation/ours/" + sr + wav_name;
+          var img_udm = "./audio/ablation/ours/" + sr + png_name;
+          var src_udm = "./audio/ablation/ours/" + sr + wav_name;
 
           var img_pt = "./audio/ablation/scratch/" + sr + png_name;
           var src_pt = "./audio/ablation/scratch/" + sr + wav_name;
@@ -1880,11 +1990,11 @@
         console.log(img_gt)
         console.log(src_gt)
         
-        console.log(img_src)
-        console.log(src_src)
+        console.log(img_source)
+        console.log(src_source)
 
-        console.log(img_ours)
-        console.log(src_ours)
+        console.log(img_udm)
+        console.log(src_udm)
 
         console.log(img_pt)
         console.log(src_pt)
@@ -1896,18 +2006,18 @@
         console.log(src_mask)
 
 
-        $('#abl_img_src3').attr("src", img_src);
-        $('#abl_src_src3').attr("src", src_src);
+        $('#abl_img_source3').attr("src", img_source);
+        $('#abl_src_source3').attr("src", src_source);
 
-        console.log($('#abl_src_src3').val());
+        console.log($('#abl_src_source3').val());
         console.log($("#abl_src3"))
         $('#abl_src3')[0].load();
 
         
-        $('#abl_img_ours3').attr("src", img_ours);
-        $('#abl_src_ours3').attr("src", src_ours);
+        $('#abl_img_udm3').attr("src", img_udm);
+        $('#abl_src_udm3').attr("src", src_udm);
 
-        console.log($('#abl_src_ours3').val());
+        console.log($('#abl_src_udm3').val());
         console.log($("#abl_ours3"))
         $('#abl_ours3')[0].load();
 
@@ -1943,7 +2053,7 @@
             png_name = '/'+name+'.png';
             $('#ssr4'+i).css("background-color", "greenyellow")
 
-            for (j=0;j<18000;j +=2000)
+            for (j=0;j<26000;j +=2000)
             {
               if (j!=i)
               {	
@@ -1963,11 +2073,11 @@
           var img_gt = "./audio/ablation/gt/" + sr + png_name;
           var src_gt = "./audio/ablation/gt/" + sr + wav_name;
         
-          var img_src = "audio/ablation/src/" + sr + png_name;
-          var src_src = "audio/ablation/src/" + sr + wav_name;
+          var img_source = "audio/ablation/src/" + sr + png_name;
+          var src_source = "audio/ablation/src/" + sr + wav_name;
           
-          var img_ours = "./audio/ablation/ours/" + sr + png_name;
-          var src_ours = "./audio/ablation/ours/" + sr + wav_name;
+          var img_udm = "./audio/ablation/ours/" + sr + png_name;
+          var src_udm = "./audio/ablation/ours/" + sr + wav_name;
 
           var img_pt = "./audio/ablation/scratch/" + sr + png_name;
           var src_pt = "./audio/ablation/scratch/" + sr + wav_name;
@@ -1981,11 +2091,11 @@
         console.log(img_gt)
         console.log(src_gt)
         
-        console.log(img_src)
-        console.log(src_src)
+        console.log(img_source)
+        console.log(src_source)
 
-        console.log(img_ours)
-        console.log(src_ours)
+        console.log(img_udm)
+        console.log(src_udm)
 
         console.log(img_pt)
         console.log(src_pt)
@@ -1997,18 +2107,18 @@
         console.log(src_mask)
 
 
-        $('#abl_img_src4').attr("src", img_src);
-        $('#abl_src_src4').attr("src", src_src);
+        $('#abl_img_source4').attr("src", img_source);
+        $('#abl_src_source4').attr("src", src_source);
 
-        console.log($('#abl_src_src4').val());
+        console.log($('#abl_src_source4').val());
         console.log($("#abl_src4"))
         $('#abl_src4')[0].load();
 
         
-        $('#abl_img_ours4').attr("src", img_ours);
-        $('#abl_src_ours4').attr("src", src_ours);
+        $('#abl_img_udm4').attr("src", img_udm);
+        $('#abl_src_udm4').attr("src", src_udm);
 
-        console.log($('#abl_src_ours4').val());
+        console.log($('#abl_src_udm4').val());
         console.log($("#abl_ours4"))
         $('#abl_ours4')[0].load();
 
